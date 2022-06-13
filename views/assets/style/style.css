@@ -1,0 +1,436 @@
+* {
+  font-family: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.navbar-nav a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700 bold;
+}
+
+.main-nav {
+  margin-left: 25px;
+}
+
+.login {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-item {
+  color: white;
+}
+
+/* 1st Main Background */
+.jumbotron1 {
+  background-image: url(./../image/main-bg.jpg);
+  background-size: cover;
+  height: 960px;
+  margin-top: -90px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.jumbotron1 h1 {
+  font-size: 72px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-top: 220px;
+}
+
+.jumbotron1 h3 {
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 2px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.button1 {
+  font-family: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  background-color: #ffb548;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 260px;
+  height: 60px;
+  margin-bottom: 285px;
+}
+
+.button2 {
+  color: white;
+  font-family: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center justify;
+  text-transform: uppercase;
+}
+
+.button2:hover {
+  color: #ffb548;
+}
+
+.container i {
+  font-size: 30px;
+  color: white;
+}
+
+.container i:hover {
+  color: #ffb548;
+}
+
+/* 2nd Main Background */
+.jumbotron2 {
+  background-image: url(./../image/the-games-bg.jpg);
+  background-size: cover;
+  height: 1500px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron2 h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  padding-top: 300px;
+}
+
+.jumbotron2 h1 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+
+.carousel-item {
+  height: 375px;
+  width: 750px;
+  margin-left: 400px;
+}
+
+.carousel-control-prev {
+  margin-left: 330px;
+}
+
+.carousel-control-next {
+  margin-right: -70px;
+}
+
+.carousel-indicators {
+  margin-left: 560px;
+}
+
+/* 3rd Main Background */
+.jumbotron3 {
+  background-image: url(./../image/features.jpg);
+  background-size: cover;
+  height: 870px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron3 h3 {
+  padding-top: 170px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-left: 700px;
+}
+
+.jumbotron3 h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 56px;
+  letter-spacing: 3px;
+  margin-bottom: 70px;
+  margin-left: 700px;
+}
+
+.text1 .ellipse1 {
+  margin-left: 700px;
+}
+
+.text1 .ellipse2 {
+  margin-left: 700px;
+}
+
+.text1 .text-a {
+  color: #ffb548;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  display: inline;
+}
+
+.text1 img {
+  padding-top: 100px;
+  display: inline;
+}
+
+.text1 .text-b {
+  font-family: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  margin-left: 750px;
+  margin-bottom: 50px;
+}
+
+/* 4th Main Background */
+.jumbotron4 {
+  background-image: url(./../image/requirements.png);
+  background-size: cover;
+  height: 960px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.jumbotron4 h3 {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 60px;
+}
+
+.jumbotron4 h1 {
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: 3px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 600px;
+  margin-bottom: 100px;
+}
+
+.jumbotron4 .header {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #ffb548;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.jumbotron4 .header1 {
+  margin-right: 225px;
+}
+
+.jumbotron4 .row {
+  width: 550px;
+  margin-bottom: 50px;
+}
+
+.jumbotron4 .col {
+  font-family: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.jumbotron4 .col-a {
+  margin-right: 20px;
+}
+
+.jumbotron4 .header2 {
+  margin-right: 145px;
+}
+
+.jumbotron4 .par1 {
+  width: 400px;
+}
+
+/* 5th Main Background */
+.jumbotron5 {
+  background-image: url(./../image/top-score-bg.png);
+  background-color: black;
+  height: 960px;
+  font-family: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  color: white;
+}
+
+.jumbotron5 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 56px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-top: 350px;
+}
+
+.jumbotron5 p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  width: 370px;
+}
+
+.box1 {
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  width: 450px;
+  height: 180px;
+  margin-left: 700px;
+  margin-top: -650px;
+}
+
+.box1 h3 {
+  color: #ffb548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: -10px;
+}
+
+.box1 p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.box1 span {
+  font-size: 14px;
+  color: grey;
+}
+
+.box2 {
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  width: 450px;
+  height: 180px;
+  margin-left: 550px;
+}
+
+.box2 h3 {
+  color: #ffb548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: -10px;
+}
+
+.box2 p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.box2 span {
+  font-size: 14px;
+  color: grey;
+}
+
+.box3 {
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  width: 450px;
+  height: 180px;
+  margin-left: 600px;
+}
+
+.box3 h3 {
+  color: #ffb548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: -10px;
+}
+
+.box3 p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.box3 span {
+  font-size: 14px;
+  color: grey;
+}
+
+/* 6th Main Background */
+.jumbotron6 {
+  background-color: black;
+  height: 960px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.jumbotron6 h3 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: 2px;
+  width: 200px;
+  margin-left: 500px;
+  padding-top: 135px;
+}
+
+.jumbotron6 h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+  letter-spacing: 3px;
+  margin-left: 500px;
+  text-transform: uppercase;
+}
+
+.jumbotron6 p {
+  font-family: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  margin-left: 500px;
+  margin-bottom: 300px;
+}
+
+.navbar-nav1 {
+  font-family: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700 bold;
+  width: 900px;
+  margin-left: 285px;
+}
+
+.navbar-nav1 i {
+  width: 75px;
+  font-size: 20px;
+  padding-left: 80px;
+}
+
+.jumbotron6 .copyright {
+  color: grey;
+  font-family: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  margin-left: 0px;
+}
